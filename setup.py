@@ -13,11 +13,9 @@ client = commands.Bot(command_prefix = prefix, help_command = None, intents = in
 
 def banner():
     sys.stdout.buffer.write(f'''
-Author: {__author__}
-Version: {__version__} 
                                                                     
-  ,ad88PPP88ba,   88                                                
- d8"  .ama.a "8a  ""                                                
+  ,ad88PPP88ba,   88                         Author: {__author__}
+ d8"  .ama.a "8a  ""                         Version: {__version__}
 d8'  ,8P"88"  88                                                    
 88  .8P  8P   88  88  8b       d8  8b      db      d8  8b       d8  
 88  88   8'   8P  88  `8b     d8'  `8b    d88b    d8'  `8b     d8'  
